@@ -40,7 +40,9 @@ target 'MyProjectModule' do
   pod 'Moya', '~> 14.0'
 
   # Flutter 引入 现有 Native 工程
-#  flutter_application_path = "/Users/zhangxinxin/Code/FlutterDoc/my_flutter"
-#  eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+  
+  #  pod 'XesAppFlutterModule', :path => '../'  # 通过本地源码
+#    pod 'XesAppFlutterModule', :podspec => '../XesAppFlutterModule.podspec'  # 通过本地podspec
+#    pod "XesAppFlutterModule", :git => 'https://**/**/FlutterModuleCode.git' # 通过远端podspec
 
 end
